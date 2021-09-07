@@ -1,0 +1,29 @@
+.home {
+    width: 65%;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+@media(max-width: 450px) {
+    .home {
+        width: 50%;
+    }
+    img {
+        width: 40%;
+    }
+}
+
+@media(max-width: 770px) {
+    .home {
+        width: 90%;
+    }
+}
+
+img {
+    justify-content: center;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+}
